@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./header/Header";
-import Section from "./section/section";
+import Footer from "./footer/Footer";
 
 function Content() {
   return (
     <div>
       <Header />
-      <Section />
+      <Footer />
     </div>
   );
 }
