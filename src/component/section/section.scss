@@ -1,0 +1,35 @@
+.section {
+  left: 0;
+  width: 100%;
+  min-width: 820px;
+  height: auto;
+  position: relative;
+  margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+  &__main {
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    min-width: 980px;
+    top: 0;
+    display: block;
+    align-self: stretch;
+    position: relative;
+  }
+  &_div {
+    position: relative;
+    width: calc(100% - 160px);
+    min-width: 980px;
+    display: flex;
+    &_content {
+      position: relative;
+      width: 100%;
+      left: 0;
+      flex: 980;
+      margin-left: 0;
+      min-width: 980px;
+      top: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}

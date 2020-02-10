@@ -1,0 +1,126 @@
+.header {
+  min-width: 100vw;
+  height: 102px;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  &__content {
+    position: relative;
+  }
+  &__div {
+    z-index: 50;
+    height: 40px;
+    min-height: 36px;
+    width: 154px;
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 80px;
+    pointer-events: auto;
+    cursor: pointer;
+    &_logo {
+      font: normal normal normal 26px/1.4em cinzel, serif;
+      transition: color 0.4s ease 0s;
+      color: #303131;
+      white-space: nowrap;
+      display: inline-block;
+      font-weight: 400;
+    }
+    &_a {
+      text-align: initial;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+    }
+  }
+  &__menu {
+    width: 754px;
+    height: 50px;
+    z-index: 50;
+    overflow-x: visible;
+    justify-self: end;
+    margin-right: 48px;
+    align-self: start;
+    margin-top: 31px;
+    position: absolute;
+    pointer-events: auto;
+    top: 0;
+    right: 0;
+    &_nav {
+      text-align: center;
+      width: calc(100% - 0px);
+      height: calc(100% - 0px);
+      white-space: nowrap;
+      display: inline-block;
+      overflow: visible;
+      position: absolute;
+    }
+    &_ul {
+      width: 161px;
+      height: 50px;
+      position: relative;
+      box-sizing: border-box;
+      overflow: visible;
+    }
+    &_li {
+      width: 156px;
+      height: 50px;
+      position: relative;
+      box-sizing: border-box;
+      overflow: visible;
+      display: inline-block;
+      cursor: pointer;
+      outline: 0;
+      vertical-align: baseline;
+      &:nth-child(1) {
+        width: 146px;
+      }
+      &:nth-child(2) {
+        width: 161px;
+      }
+      &:nth-child(3) {
+        width: 146px;
+      }
+      &:nth-child(4) {
+        width: 145px;
+      }
+      &:nth-child(5) {
+        width: 156px;
+      }
+    }
+    &_a {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      white-space: nowrap;
+    }
+    &_div {
+      padding: 0 5px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+    &_p {
+      display: inline-block;
+      padding: 0 10px;
+      color: #303131;
+      transition: color 0.4s ease 0s;
+      text-align: center;
+      line-height: 50px;
+      font: normal normal normal 16px/1.4em sans-serif;
+      cursor: pointer;
+      height: 100%;
+      &.active {
+        color: #8b98a7;
+      }
+      &:hover {
+        color: #8b98a7;
+        transition: color 0.4s ease 0s;
+      }
+    }
+  }
+}
