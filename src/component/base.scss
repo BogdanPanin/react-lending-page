@@ -31,7 +31,10 @@ h1 {
 }
 
 h2 {
-  font-size: 1.75rem;
+  font: normal normal normal 20px/1.4em avenir-lt-w01_35-light1475496,
+    sans-serif;
+  color: #303131;
+  pointer-events: auto;
 }
 
 h3 {
