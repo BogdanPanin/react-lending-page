@@ -1,6 +1,13 @@
 import React from "react";
 import { render } from "react-dom";
+import { connect, Provider } from "react-redux";
+import store from "./redux/redux-store";
 import "./component/base.scss";
-import Content from "./component/Content";
+import App from "./App";
 
-render(<Content />, document.querySelector(".SITE_CONTAINER"));
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.querySelector(".SITE_CONTAINER")
+);

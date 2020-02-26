@@ -2,34 +2,20 @@ import React from "react";
 import "./footer.scss";
 import FooterMenu from "./FooterMenu";
 import FooterText from "./FooterText";
+import PropTypes from "prop-types";
 
-function Footer() {
-  const itemImg = [
-    {
-      id: 1,
-      src: "../../../public/picture.webp"
-    },
-    {
-      id: 2,
-      src: "../../../public/facebook.webp"
-    },
-    {
-      id: 3,
-      src: "../../../public/twitter.webp"
-    },
-    {
-      id: 4,
-      src: "../../../public/instagram.webp"
-    }
-  ];
+function Footer(props) {
   return (
-    <footer className="footer">
+    <footer className="footer" style={props.style}>
       <div className="footer__div">
-        <FooterMenu itemImg={itemImg} />
+        <FooterMenu itemImg={props.itemImg} />
         <FooterText />
       </div>
     </footer>
   );
 }
 
+Footer.propTypes = {
+  itemImg: PropTypes.array.isRequired
+};
 export default Footer;

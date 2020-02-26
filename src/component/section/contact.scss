@@ -1,0 +1,147 @@
+.contact {
+  position: relative;
+  width: 100%;
+  height: 1021px;
+  left: 0px;
+  flex: 499 1 0%;
+  margin-left: 0px;
+  min-width: 499px;
+  top: 102px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  &__flex {
+    display: flex;
+  }
+  &.two {
+    position: relative;
+    width: 100%;
+    height: 1021px;
+    top: 102px;
+    left: 0px;
+    flex: 481 1 0%;
+    margin-left: 0px;
+    min-width: 481px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+  }
+  &__block {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: auto;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+  &-fonts {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: auto;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+  &-bg {
+    &__div {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      background-color: #bcc7d1;
+      background-color: #f0f3f6;
+    }
+    &__color {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      opacity: 1;
+    }
+  }
+  &-img {
+    position: absolute;
+    pointer-events: auto;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    &__div {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      opacity: 0.93;
+      top: 0px;
+      display: block;
+    }
+    &__img {
+      width: 100%;
+      height: 1021px;
+      object-fit: cover;
+    }
+  }
+  &-text {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    &__header {
+      width: 474px;
+      pointer-events: none;
+      position: relative;
+      margin: 156px 0px 38px calc((100% - 481px) * 0.5);
+      left: 6px;
+    }
+    &__paragraf {
+      width: 369px;
+      pointer-events: none;
+      position: relative;
+      margin: 0px 0px 41px calc((100% - 481px) * 0.5);
+      left: 6px;
+    }
+    &__info {
+      width: 379px;
+      pointer-events: none;
+      position: relative;
+      margin: 0px 0px 26px calc((100% - 481px) * 0.5);
+      left: 6px;
+    }
+  }
+  &-form {
+    &__block {
+      position: relative;
+      margin: 0px 0px 12px calc((100% - 481px) * 0.5);
+      left: -9px;
+      pointer-events: auto;
+    }
+    &__subscribe-now {
+      position: relative;
+      margin: 0px 0px 34px calc((100% - 481px) * 0.5);
+      left: -8px;
+    }
+  }
+}
+
+.header1 {
+  line-height: 1.1em;
+  &__span {
+    letter-spacing: 0.05em;
+    font: normal normal normal 40px/1.4em cinzel, serif;
+    color: #303131;
+    pointer-events: auto;
+  }
+}
+
+.paragraf {
+  line-height: 1.5em;
+  font: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496,
+    sans-serif;
+  color: #303131;
+  pointer-events: auto;
+}

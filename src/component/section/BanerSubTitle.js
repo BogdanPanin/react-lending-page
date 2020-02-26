@@ -4,9 +4,9 @@ import "./section.scss";
 function BanerSubTitle() {
   return (
     <div className="section__baner-sub">
-      <p className="section__baner-sub_p">
-        <span className="section__baner-sub_span"></span>
-      </p>
+      <h1 className="section__baner-sub_h1">
+        <span className="section__baner-sub_span">PHOTOGRAPHY</span>
+      </h1>
     </div>
   );
 }
