@@ -8,7 +8,7 @@ function FooterMenu(props) {
     <div className="footer__menu_div">
       <ul className="footer__menu_ul">
         {props.itemImg.map(img => {
-          return <FooterMenuItem src={img.src} key={img.id} />;
+          return <FooterMenuItem src={img.src} key={img.id} Href={img.Href} />;
         })}
       </ul>
     </div>

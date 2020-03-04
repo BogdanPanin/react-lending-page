@@ -15,7 +15,7 @@ function SectionHome(props) {
           <SectionImg />
           <BanerTitle />
           <BanerSubTitle />
-          <Button title="View More" />
+          <Button title="View More" Href="/" />
         </div>
       </section>
       <Footer itemImg={props.itemImg} style={style} />

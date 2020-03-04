@@ -3,7 +3,6 @@ import "./formSubcribe.scss";
 import FormInput from "./FormInput";
 import Paragraf from "./Paragraf";
 import FormButton from "./FormButton";
-import FormCompleted from "./FormCompleted";
 import { reduxForm, Field } from "redux-form";
 import { requiredField, email } from "../../utils/validators/validators";
 

@@ -22,7 +22,7 @@ function FormMessage(props) {
           validate={[requiredField]}
         />
       </div>
-      <div className="form-email">
+      <div className="form-emails">
         <Field
           title="Enter Your Email"
           type="email"

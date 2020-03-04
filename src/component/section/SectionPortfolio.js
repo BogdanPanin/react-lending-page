@@ -1,11 +1,22 @@
 import React from "react";
 import "./section.scss";
+import Footer from "../footer/Footer";
+import SectionHeader from "./SectionHeader";
+import PortfolioContent from "./PortfolioContent";
 
 function SectionPortfolio(props) {
+  const style = { bottom: "-277px" };
+  const titleHeader = "PORTFOLIO";
   return (
-    <section className="section">
-      <div className="section__div"></div>
-    </section>
+    <div>
+      <section className="section">
+        <div className="section__div">
+          <SectionHeader title={titleHeader} />
+          <PortfolioContent />
+        </div>
+      </section>
+      <Footer itemImg={props.itemImg} style={style} />
+    </div>
   );
 }
 

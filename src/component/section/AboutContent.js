@@ -22,7 +22,7 @@ function AboutContent(props) {
         <Paragraf title="I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font." />
       </div>
       <div className="about-text__header3">
-        <H2 title="Awards & Nominations:"/>
+        <H2 title="Awards & Nominations:" />
       </div>
       <div className="about-text__paragraf2">
         <Paragraf title="I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you." />
