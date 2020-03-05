@@ -12,7 +12,8 @@ function FooterMenuItem(src) {
   );
 }
 FooterMenuItem.propTypes = {
-  src: PropTypes.string.isRequired
+  src: PropTypes.string.isRequired,
+  Href: PropTypes.string.isRequired
 };
 
 export default FooterMenuItem;

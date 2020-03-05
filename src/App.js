@@ -6,7 +6,9 @@ import SectionBook from "./component/section/SectionBook";
 import SectionContact from "./component/section/SectionContact";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "./component/header/header.scss";
+import "./component/mediaHeader.scss";
 import Logo from "./component/header/Logo";
+import DropRight from "./component/header/DropRight";
 
 function App() {
   const itemImg = [
@@ -35,12 +37,16 @@ function App() {
         "https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp"
     }
   ];
+
   return (
     <Router>
       <div>
         <header className="header">
+          <DropRight />
           <div className="header__content">
-            <Logo />
+            <div className="header__div">
+              <Logo />
+            </div>
             <div className="header__menu">
               <nav className="header__menu_nav">
                 <ul className="header__menu_ul">

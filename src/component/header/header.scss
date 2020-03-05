@@ -8,6 +8,10 @@
   z-index: 3;
   &__content {
     position: relative;
+    &-media {
+      overflow: hidden;
+      position: relative;
+    }
   }
   &__div {
     z-index: 50;

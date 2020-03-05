@@ -7,7 +7,7 @@ import Button from "./Button";
 import Footer from "../footer/Footer";
 
 function SectionHome(props) {
-  const style = { bottom: "-226px" };
+  const style = { bottom: "-177px" };
   return (
     <div>
       <section className="section">
