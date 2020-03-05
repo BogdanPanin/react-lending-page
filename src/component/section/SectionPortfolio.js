@@ -5,7 +5,7 @@ import SectionHeader from "./SectionHeader";
 import PortfolioContent from "./PortfolioContent";
 
 function SectionPortfolio(props) {
-  const style = { bottom: "-277px" };
+  const style = { bottom: "-309px" };
   const titleHeader = "PORTFOLIO";
   return (
     <div>

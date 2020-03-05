@@ -6,7 +6,7 @@ function FooterMenuItem(src) {
   return (
     <li className="footer__menu_li">
       <a href={src.Href} className="footer__menu_a">
-        <img src={src.src} className="footer__menu_img"></img>
+        <img src={src.src} alt="" className="footer__menu_img"></img>
       </a>
     </li>
   );

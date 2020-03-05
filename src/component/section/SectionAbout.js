@@ -7,7 +7,7 @@ import Footer from "../footer/Footer";
 
 function SectionAbout(props) {
   const bGColor = { backgroundColor: "#f0f3f6" };
-  const style = { bottom: "-298px" };
+  const style = { bottom: "-347px" };
   return (
     <div>
       <section className="section">
