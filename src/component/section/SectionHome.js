@@ -5,6 +5,7 @@ import BanerTitle from "./BanerTitle";
 import BanerSubTitle from "./BanerSubTitle";
 import Button from "./Button";
 import Footer from "../footer/Footer";
+import "../mediaHome.scss";
 
 function SectionHome(props) {
   const style = { bottom: "-177px" };
@@ -15,7 +16,7 @@ function SectionHome(props) {
           <SectionImg />
           <BanerTitle />
           <BanerSubTitle />
-          <Button title="View More" Href="/" />
+          <Button title="View More" Href="/portfolio" />
         </div>
       </section>
       <Footer itemImg={props.itemImg} style={style} />
