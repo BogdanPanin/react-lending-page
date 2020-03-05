@@ -7,21 +7,32 @@ import Button from "./Button";
 import Footer from "../footer/Footer";
 import "../mediaHome.scss";
 
-function SectionHome(props) {
-  const style = { bottom: "-177px" };
-  return (
-    <div>
-      <section className="section">
-        <div className="section__div">
-          <SectionImg />
-          <BanerTitle />
-          <BanerSubTitle />
-          <Button title="View More" Href="/portfolio" />
-        </div>
-      </section>
-      <Footer itemImg={props.itemImg} style={style} />
-    </div>
-  );
+class SectionHome extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    const style = { bottom: "-262px" };
+    const styleMedia = { bottom: "-60px" };
+    return (
+      <div>
+        <section className="section">
+          <div className="section__div">
+            <SectionImg />
+            <BanerTitle />
+            <BanerSubTitle />
+            <Button title="View More" Href="/portfolio" />
+          </div>
+        </section>
+        <Footer
+          itemImg={this.props.itemImg}
+          style={style}
+          styleMedia={styleMedia}
+        />
+      </div>
+    );
+  }
 }
 
 export default SectionHome;

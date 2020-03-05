@@ -5,7 +5,7 @@ import SectionHeader from "./SectionHeader";
 import BookContent from "./BookContent";
 
 function SectionBook(props) {
-  const style = { bottom: "-1579px" };
+  const style = { bottom: "-1664px" };
   const titleHeader = "BOOKS";
   return (
     <div>

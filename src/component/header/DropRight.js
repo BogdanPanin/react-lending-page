@@ -13,7 +13,6 @@ class DropRight extends Component {
   }
   render() {
     const span = ["header__btn__span"];
-    console.log(this.state.isOpened);
     let dropRihgt;
     if (this.state.isOpened) {
       span.push("active");
@@ -22,10 +21,7 @@ class DropRight extends Component {
           <div className="header-media__drop-right-bg"></div>
           <div className="header-media__drop-right__div">
             <div className="header-media__drop-right__div-bg__div">
-              <div
-                className="header-media__drop-right__div-bg"
-                onClick={this.toggleState.bind(this)}
-              >
+              <div className="header-media__drop-right__div-bg">
                 <div className="header-media__drop-right__div-bg__block"></div>
               </div>
             </div>
