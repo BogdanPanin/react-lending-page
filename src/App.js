@@ -9,32 +9,23 @@ import "./component/header/header.scss";
 import "./component/mediaHeader.scss";
 import Logo from "./component/header/Logo";
 import DropRight from "./component/header/DropRight";
+import book1 from "./img/book1.png";
+import book2 from "./img/book2.png";
+import book3 from "./img/book3.png";
 
 function App() {
-  const itemImg = [
+  const itemBook = [
     {
       id: 1,
-      Href: "https://www.pinterest.com/",
-      src:
-        "https://static.wixstatic.com/media/8f6f59264a094af0b46e9f6c77dff83e.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01/8f6f59264a094af0b46e9f6c77dff83e.webp"
+      src: { book1 }
     },
     {
       id: 2,
-      Href: "https://www.facebook.com/",
-      src:
-        "https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01/0fdef751204647a3bbd7eaa2827ed4f9.webp"
+      src: { book2 }
     },
     {
       id: 3,
-      Href: "https://twitter.com/",
-      src:
-        "https://static.wixstatic.com/media/c7d035ba85f6486680c2facedecdcf4d.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01/c7d035ba85f6486680c2facedecdcf4d.webp"
-    },
-    {
-      id: 4,
-      Href: "https://www.instagram.com/",
-      src:
-        "https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01/01c3aff52f2a4dffa526d7a9843d46ea.webp"
+      src: { book3 }
     }
   ];
 
@@ -91,19 +82,19 @@ function App() {
           </div>
         </header>
         <Route exact path="/">
-          <SectionHome itemImg={itemImg} />
+          <SectionHome />
         </Route>
         <Route path="/portfolio">
-          <SectionPortfolio itemImg={itemImg} />
+          <SectionPortfolio />
         </Route>
         <Route path="/about">
-          <SectionAbout itemImg={itemImg} />
+          <SectionAbout />
         </Route>
         <Route path="/book">
-          <SectionBook itemImg={itemImg} />
+          <SectionBook book={itemBook} />
         </Route>
         <Route path="/contact">
-          <SectionContact itemImg={itemImg} />
+          <SectionContact />
         </Route>
       </div>
     </Router>

@@ -1,3 +1,5 @@
+@import "../variables";
+
 .section-header {
   top: 102px;
   left: 0;
@@ -58,5 +60,50 @@
     pointer-events: auto;
     display: flex;
     justify-content: center;
+  }
+  &__span {
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
+    text-align: center;
+    pointer-events: auto;
+    font: normal normal normal 40px/1.4em cinzel, serif;
+    color: #303131;
+  }
+}
+
+@media screen and (max-width: $screen-lg - 1px) {
+  .section-header {
+    top: 95px;
+    min-width: 100%;
+    &__block {
+      position: relative;
+      width: 100%;
+      min-width: 100%;
+    }
+    &__div {
+      width: 100%;
+      position: relative;
+      top: 0;
+      bottom: 0;
+      height: 74px;
+    }
+    &__gridContainer {
+      height: 74px;
+    }
+    &__margin {
+      width: 280px;
+      margin: 20px 0px 20px 0;
+      height: 39px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &__h1 {
+      line-height: 1.2em;
+      text-align: center;
+      font-size: 29px;
+    }
+    &__span {
+      font-size: 29px;
+    }
   }
 }

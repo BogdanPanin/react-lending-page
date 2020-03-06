@@ -14,7 +14,7 @@ class SectionHome extends React.Component {
   }
   render() {
     const style = { bottom: "-262px" };
-    const styleMedia = { bottom: "-60px" };
+    const styleMedia = { bottom: "-195px" };
     return (
       <div>
         <section className="section">
@@ -25,11 +25,7 @@ class SectionHome extends React.Component {
             <Button title="View More" Href="/portfolio" />
           </div>
         </section>
-        <Footer
-          itemImg={this.props.itemImg}
-          style={style}
-          styleMedia={styleMedia}
-        />
+        <Footer style={style} styleMedia={styleMedia} />
       </div>
     );
   }

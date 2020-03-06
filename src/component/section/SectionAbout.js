@@ -4,6 +4,7 @@ import "./contact.scss";
 import ContactImg from "./ContactImg";
 import AboutContent from "./AboutContent";
 import Footer from "../footer/Footer";
+import aboutImeg from "../../img/about.png";
 
 function SectionAbout(props) {
   const bGColor = { backgroundColor: "#f0f3f6" };
@@ -19,7 +20,7 @@ function SectionAbout(props) {
                   <div className="contact-bg__div">
                     <div className="contact-bg__color"></div>
                   </div>
-                  <ContactImg Src="https://static.wixstatic.com/media/f61af8_97627769e7bd41538ecbf417234e55d9~mv2_d_4912_7360_s_4_2.jpg/v1/fill/w_573,h_884,al_b,q_85,usm_0.66_1.00_0.01/f61af8_97627769e7bd41538ecbf417234e55d9~mv2_d_4912_7360_s_4_2.webp" />
+                  <ContactImg src={aboutImeg} />
                 </div>
               </div>
             </div>
@@ -36,7 +37,7 @@ function SectionAbout(props) {
           </div>
         </div>
       </section>
-      <Footer itemImg={props.itemImg} style={style} />
+      <Footer style={style} />
     </div>
   );
 }

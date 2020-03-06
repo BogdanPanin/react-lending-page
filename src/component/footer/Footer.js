@@ -2,7 +2,6 @@ import React from "react";
 import "./footer.scss";
 import FooterMenu from "./FooterMenu";
 import FooterText from "./FooterText";
-import PropTypes from "prop-types";
 import "../mediaFooter.scss";
 
 class Footer extends React.Component {
@@ -18,7 +17,7 @@ class Footer extends React.Component {
       <footer className="footer" style={result}>
         <div className="footer__div">
           <div className="footer__grid">
-            <FooterMenu itemImg={this.props.itemImg} />
+            <FooterMenu />
             <FooterText />
           </div>
         </div>
@@ -27,7 +26,4 @@ class Footer extends React.Component {
   }
 }
 
-Footer.propTypes = {
-  itemImg: PropTypes.array.isRequired
-};
 export default Footer;
