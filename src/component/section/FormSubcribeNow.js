@@ -8,12 +8,12 @@ import { requiredField, email } from "../../utils/validators/validators";
 
 function FormSubcribe(props) {
   return (
-    <form className="form" onSubmit={props.handleSubmit}>
-      <div className="form__gridContainer">
-        <div className="form__p">
+    <form className="form media" onSubmit={props.handleSubmit}>
+      <div className="form__gridContainer media">
+        <div className="form__p media">
           <Paragraf title="Stay Up-To-Date with New Posts" />
         </div>
-        <div className="form-email">
+        <div className="form-email media">
           <Field
             title="Enter your email here"
             type="email"
@@ -25,12 +25,12 @@ function FormSubcribe(props) {
             validate={[requiredField, email]}
           />
         </div>
-        <div className="form-submiting">
+        <div className="form-submiting media">
           <FormButton title="Subscribe Now" />
         </div>
-        <div className="form__completed">
-          <p className="form__completed__p">
-            <span className="form__completed__spaan">
+        <div className="form__completed media">
+          <p className="form__completed__p media">
+            <span className="form__completed__spaan media">
               Thanks for submitting!
             </span>
           </p>

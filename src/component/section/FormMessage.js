@@ -9,8 +9,8 @@ import { requiredField, email } from "../../utils/validators/validators";
 
 function FormMessage(props) {
   return (
-    <form className="form" onSubmit={props.handleSubmit}>
-      <div className="form-name">
+    <form className="form media" onSubmit={props.handleSubmit}>
+      <div className="form-name media">
         <Field
           title="Enter Your Name"
           type="text"
@@ -22,7 +22,7 @@ function FormMessage(props) {
           validate={[requiredField]}
         />
       </div>
-      <div className="form-emails">
+      <div className="form-emails media">
         <Field
           title="Enter Your Email"
           type="email"
@@ -34,7 +34,7 @@ function FormMessage(props) {
           validate={[requiredField, email]}
         />
       </div>
-      <div className="form-subject">
+      <div className="form-subject media">
         <Field
           title="Enter Your Subject"
           type="text"
@@ -45,7 +45,7 @@ function FormMessage(props) {
           validate={[requiredField]}
         />
       </div>
-      <div className="form-message">
+      <div className="form-message media">
         <Field
           title="Enter Your Message Here"
           placeholder="Message"
@@ -54,10 +54,10 @@ function FormMessage(props) {
           validate={[requiredField]}
         />
       </div>
-      <div className="form-submit">
+      <div className="form-submit media">
         <FormButton title="Submit" />
       </div>
-      <div className="form-completed">
+      <div className="form-completed media">
         <FormCompleted title="Thanks for submitting!" />
       </div>
     </form>

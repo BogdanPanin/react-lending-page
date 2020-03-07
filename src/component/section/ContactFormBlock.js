@@ -10,7 +10,7 @@ function ContactFormBlock(props) {
     span.style.visibility = "visible";
   };
   return (
-    <div className="form__div">
+    <div className="form__div media">
       <ReduxFormMessage onSubmit={onSubmit} />
     </div>
   );

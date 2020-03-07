@@ -9,8 +9,8 @@ function ContactSubscribeNow(props) {
     completed.style.visibility = "visible";
   };
   return (
-    <div className="form__block">
-      <div className="form__subscribe-now">
+    <div className="form__block media">
+      <div className="form__subscribe-now media">
         <ReduxFormSubcribeNow onSubmit={onSubmit} />
       </div>
     </div>
