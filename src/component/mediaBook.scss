@@ -1,0 +1,158 @@
+@import "./variables";
+
+@media screen and (max-width: $screen-lg - 1px) {
+  .section {
+    top: 95px;
+    min-width: 100%;
+    &__div {
+      width: 100%;
+      min-width: 100%;
+    }
+  }
+  .book {
+    &__section {
+      &.media {
+        top: 95px;
+        min-width: 100%;
+      }
+    }
+    &__display-flex {
+      &.media {
+        flex-direction: column;
+        min-width: 100%;
+      }
+    }
+    &__block {
+      &.media {
+        min-width: 100%;
+      }
+    }
+    &-text {
+      &.media {
+        min-height: 577px;
+      }
+    }
+    &__header {
+      &.media {
+        width: 282px;
+        pointer-events: none;
+        margin: 52px 0px 19px 0;
+        left: 50%;
+        transform: translateX(-59%);
+        grid-area: 1 / 1 / 2 / 2;
+      }
+      &2 {
+        &.media {
+          line-height: 1.1em;
+          font-size: 36px;
+        }
+      }
+    }
+    &__paragraf {
+      &.media {
+        width: 261px;
+        pointer-events: none;
+        margin: 0px 0px 22px 0;
+        left: 50%;
+        transform: translateX(-63%);
+        grid-area: 2 / 1 / 3 / 2;
+      }
+    }
+    &__button {
+      &.media {
+        height: 45px;
+        min-height: 22px;
+        width: 140px;
+        margin: 9px 0px 29px 0;
+        left: 50%;
+        transform: translateX(-33%);
+        grid-area: 3 / 1 / 4 / 2;
+      }
+    }
+    &__price {
+      &.media {
+        width: 75px;
+        pointer-events: none;
+        margin: 8px 0px 27px 0;
+        left: 50%;
+        transform: translateX(-218%);
+        grid-area: 3 / 1 / 4 / 2;
+      }
+      &__p {
+        &.media {
+          font-size: 36px;
+        }
+      }
+      &__span {
+        &.media {
+          letter-spacing: 0.1em;
+          font-size: 36px;
+        }
+      }
+    }
+    &__photo {
+      &.media {
+        width: 280px;
+        height: 200px;
+        margin: 0px 0px 42px 0;
+        left: 50%;
+        transform: translate(-52%);
+        grid-area: 4 / 1 / 5 / 2;
+      }
+    }
+    &__dollar {
+      &.media {
+        width: 40px;
+        pointer-events: none;
+        margin: 0px 0px 52px 0;
+        left: 50%;
+        transform: translateX(-291%);
+        grid-area: 3 / 1 / 4 / 2;
+      }
+      &__p {
+        &.media {
+          font-size: 23px;
+        }
+      }
+      &__span {
+        &.media {
+          font-size: 23px;
+        }
+      }
+      &__currency {
+        &.media {
+          font-size: 23px;
+        }
+      }
+    }
+    &-img {
+      &.media {
+        width: 280px;
+        height: 200px;
+      }
+      &__div {
+        &.media {
+          width: 280px;
+          height: 200px;
+        }
+      }
+      &__img {
+        &.media {
+          width: 280px;
+          height: 200px;
+        }
+      }
+    }
+    &-bg {
+      &__color {
+        &.media {
+          background-color: #f0f3f6;
+        }
+      }
+    }
+  }
+  .paragraf.about {
+    line-height: 1.5em;
+    font-size: 16px;
+  }
+}

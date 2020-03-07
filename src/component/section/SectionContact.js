@@ -15,7 +15,7 @@ class SectionContact extends React.Component {
   render() {
     const bGColor = { backgroundColor: "#f0f3f6" };
     const style = { bottom: "-383px" };
-    const styleMedia = { bottom: "-730px" };
+    const styleMedia = { bottom: "-1250px" };
     return (
       <div>
         <section className="section">

@@ -3,9 +3,9 @@ import "./book.scss";
 
 function BookDollar(props) {
   return (
-    <p className="book__dollar__p">
-      <span className="book__dollar__span">
-        <span className="book__dollar__currency">{props.currency}</span>
+    <p className="book__dollar__p media">
+      <span className="book__dollar__span media">
+        <span className="book__dollar__currency media">{props.currency}</span>
       </span>
     </p>
   );

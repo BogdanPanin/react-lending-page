@@ -14,7 +14,7 @@ class SectionHome extends React.Component {
   }
   render() {
     const style = { bottom: "-262px" };
-    const styleMedia = { bottom: "-195px" };
+    const styleMedia = { bottom: "-350px" };
     return (
       <div>
         <section className="section">
