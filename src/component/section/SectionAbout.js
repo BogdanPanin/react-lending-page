@@ -1,6 +1,8 @@
 import React from "react";
 import "./section.scss";
 import "./contact.scss";
+import "../mediaContact.scss";
+import "../mediaAbout.scss";
 import ContactImg from "./ContactImg";
 import AboutContent from "./AboutContent";
 import Footer from "../footer/Footer";
@@ -14,7 +16,7 @@ class SectionAbout extends React.Component {
   render() {
     const bGColor = { backgroundColor: "#f0f3f6" };
     const style = { bottom: "-383px" };
-    const styleMedia = { bottom: "-695px" };
+    const styleMedia = { bottom: "-830px" };
     return (
       <div>
         <section className="section">
