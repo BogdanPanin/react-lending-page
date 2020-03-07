@@ -13,7 +13,7 @@ class SectionHome extends React.Component {
     this.state = {};
   }
   render() {
-    const style = { bottom: "-262px" };
+    const style = { bottom: "-180px" };
     const styleMedia = { bottom: "-350px" };
     return (
       <div>

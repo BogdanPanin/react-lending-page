@@ -13,7 +13,7 @@ class SectionPortfolio extends React.Component {
     this.state = {};
   }
   render() {
-    const style = { bottom: "-345px" };
+    const style = { bottom: "-270px" };
     const styleMedia = { bottom: "-850px" };
     const titleHeader = "PORTFOLIO";
     return (
