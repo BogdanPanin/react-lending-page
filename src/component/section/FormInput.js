@@ -8,9 +8,7 @@ const FormInput = ({ input, meta, ...props }) => {
     <div className="form__flex">
       <label className="form__label media">{props.title}</label>
       <input
-        className={
-          "form__input media" + (hasError ? "form__input" && "_error" : "")
-        }
+        className={"form__input" + (hasError ? "form__input" && "_error" : "")}
         {...input}
         {...props}
       />

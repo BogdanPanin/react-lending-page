@@ -2,7 +2,6 @@ import React from "react";
 import "./contact.scss";
 
 function ContactImg(props) {
-  console.log(props);
   return (
     <div className="contact-img">
       <div className="contact-img__div">
