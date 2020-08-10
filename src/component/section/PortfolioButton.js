@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function PortfolioButton(props) {
   return (
-    <Link to="/" className="portfolio-button">
+    <Link to="/react-lending-page/" className="portfolio-button">
       <span className="portfolio-button__span">{props.titleBtn}</span>
     </Link>
   );
