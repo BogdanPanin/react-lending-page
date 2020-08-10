@@ -6,6 +6,7 @@
   margin-left: 0px;
   &__div {
     position: relative;
+    min-height: 100vh;
     top: 0px;
     width: calc(100% - 160px);
     height: 100%;
@@ -72,8 +73,8 @@
     &-sub {
       width: 595px;
       pointer-events: none;
-      position: relative;
-      top: calc(50% + 58px);
+      position: absolute;
+      top: calc(50% + 70px);
       left: 50%;
       transform: translate(-50%, -50%);
       pointer-events: auto;
@@ -100,8 +101,8 @@
     pointer-events: auto;
     border: solid rgba(255, 255, 255, 1) 1px;
     &.home {
-      position: relative;
-      top: calc(50% + 86px);
+      position: absolute;
+      top: calc(50% + 115px);
       left: 50%;
       transform: translate(-50%, -50%);
     }
