@@ -17,16 +17,16 @@ function App() {
   const itemBook = [
     {
       id: 1,
-      src: { book1 }
+      src: { book1 },
     },
     {
       id: 2,
-      src: { book2 }
+      src: { book2 },
     },
     {
       id: 3,
-      src: { book3 }
-    }
+      src: { book3 },
+    },
   ];
 
   return (
@@ -81,7 +81,7 @@ function App() {
             </div>
           </div>
         </header>
-        <Route exact path="/">
+        <Route exact path="/react-lending-page/">
           <SectionHome />
         </Route>
         <Route path="/portfolio">
