@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-lending-page/static/css/main.a6f80948.chunk.css",
-    "main.js": "/react-lending-page/static/js/main.09d46a60.chunk.js",
-    "main.js.map": "/react-lending-page/static/js/main.09d46a60.chunk.js.map",
+    "main.js": "/react-lending-page/static/js/main.a56d9254.chunk.js",
+    "main.js.map": "/react-lending-page/static/js/main.a56d9254.chunk.js.map",
     "runtime-main.js": "/react-lending-page/static/js/runtime-main.26a41e0f.js",
     "runtime-main.js.map": "/react-lending-page/static/js/runtime-main.26a41e0f.js.map",
     "static/js/2.a57ebb4b.chunk.js": "/react-lending-page/static/js/2.a57ebb4b.chunk.js",
     "static/js/2.a57ebb4b.chunk.js.map": "/react-lending-page/static/js/2.a57ebb4b.chunk.js.map",
     "index.html": "/react-lending-page/index.html",
-    "precache-manifest.a2db9c0383a897c04a09b0c5871f2058.js": "/react-lending-page/precache-manifest.a2db9c0383a897c04a09b0c5871f2058.js",
+    "precache-manifest.27d740b1662c94873a4091cc14aff728.js": "/react-lending-page/precache-manifest.27d740b1662c94873a4091cc14aff728.js",
     "service-worker.js": "/react-lending-page/service-worker.js",
     "static/css/main.a6f80948.chunk.css.map": "/react-lending-page/static/css/main.a6f80948.chunk.css.map",
     "static/js/2.a57ebb4b.chunk.js.LICENSE.txt": "/react-lending-page/static/js/2.a57ebb4b.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.26a41e0f.js",
     "static/js/2.a57ebb4b.chunk.js",
     "static/css/main.a6f80948.chunk.css",
-    "static/js/main.09d46a60.chunk.js"
+    "static/js/main.a56d9254.chunk.js"
   ]
 }
