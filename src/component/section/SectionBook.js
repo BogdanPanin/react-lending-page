@@ -1,7 +1,6 @@
 import React from "react";
 import "./section.scss";
 import "../mediaBook.scss";
-import Footer from "../footer/Footer";
 import SectionHeader from "./SectionHeader";
 import BookContent from "./BookContent";
 

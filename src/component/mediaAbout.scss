@@ -11,6 +11,9 @@
   }
   .about {
     &-text {
+      &.media {
+        top: -300px;
+      }
       &__header {
         &.media {
           width: 273px;
