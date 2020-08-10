@@ -22,7 +22,7 @@ class SectionHome extends React.Component {
             <SectionImg />
             <BanerTitle />
             <BanerSubTitle />
-            <Button title="View More" Href="/portfolio" />
+            <Button title="View More" Href="/react-lending-page/portfolio" />
           </div>
         </section>
         <Footer style={style} styleMedia={styleMedia} />

@@ -42,35 +42,47 @@ function App() {
               <nav className="header__menu_nav">
                 <ul className="header__menu_ul">
                   <li className="header__menu_li">
-                    <Link to="/" className="header__menu_a">
+                    <Link to="/react-lending-page/" className="header__menu_a">
                       <div className="header__menu_div">
                         <p className="header__menu_p active">Home</p>
                       </div>
                     </Link>
                   </li>
                   <li className="header__menu_li">
-                    <Link to="/portfolio" className="header__menu_a">
+                    <Link
+                      to="/react-lending-page/portfolio"
+                      className="header__menu_a"
+                    >
                       <div className="header__menu_div">
                         <p className="header__menu_p">Portfolio</p>
                       </div>
                     </Link>
                   </li>
                   <li className="header__menu_li">
-                    <Link to="/about" className="header__menu_a">
+                    <Link
+                      to="/react-lending-page/about"
+                      className="header__menu_a"
+                    >
                       <div className="header__menu_div">
                         <p className="header__menu_p">About</p>
                       </div>
                     </Link>
                   </li>
                   <li className="header__menu_li">
-                    <Link to="/book" className="header__menu_a">
+                    <Link
+                      to="/react-lending-page/book"
+                      className="header__menu_a"
+                    >
                       <div className="header__menu_div">
                         <p className="header__menu_p">Book</p>
                       </div>
                     </Link>
                   </li>
                   <li className="header__menu_li">
-                    <Link to="/contact" className="header__menu_a">
+                    <Link
+                      to="/react-lending-page/contact"
+                      className="header__menu_a"
+                    >
                       <div className="header__menu_div">
                         <p className="header__menu_p">Contact</p>
                       </div>
@@ -84,16 +96,16 @@ function App() {
         <Route exact path="/react-lending-page/">
           <SectionHome />
         </Route>
-        <Route path="/portfolio">
+        <Route path="/react-lending-page/portfolio">
           <SectionPortfolio />
         </Route>
-        <Route path="/about">
+        <Route path="/react-lending-page/about">
           <SectionAbout />
         </Route>
-        <Route path="/book">
+        <Route path="/react-lending-page/book">
           <SectionBook book={itemBook} />
         </Route>
-        <Route path="/contact">
+        <Route path="/react-lending-page/contact">
           <SectionContact />
         </Route>
       </div>

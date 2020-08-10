@@ -38,7 +38,7 @@ class DropRight extends Component {
                           <div className="header-media__drop-right__itemWrapper">
                             <span className="header-media__drop-right__labelWrapper">
                               <Link
-                                to="/"
+                                to="/react-lending-page/"
                                 className="header-media__drop-right__a active"
                               >
                                 Home
@@ -50,7 +50,7 @@ class DropRight extends Component {
                           <div className="header-media__drop-right__itemWrapper">
                             <span className="header-media__drop-right__labelWrapper">
                               <Link
-                                to="/portfolio"
+                                to="/react-lending-page/portfolio"
                                 className="header-media__drop-right__a"
                               >
                                 Portfolio
@@ -62,7 +62,7 @@ class DropRight extends Component {
                           <div className="header-media__drop-right__itemWrapper">
                             <span className="header-media__drop-right__labelWrapper">
                               <Link
-                                to="/about"
+                                to="/react-lending-page/about"
                                 className="header-media__drop-right__a"
                               >
                                 About
@@ -74,7 +74,7 @@ class DropRight extends Component {
                           <div className="header-media__drop-right__itemWrapper">
                             <span className="header-media__drop-right__labelWrapper">
                               <Link
-                                to="/book"
+                                to="/react-lending-page/book"
                                 className="header-media__drop-right__a"
                               >
                                 Books
@@ -86,7 +86,7 @@ class DropRight extends Component {
                           <div className="header-media__drop-right__itemWrapper">
                             <span className="header-media__drop-right__labelWrapper">
                               <Link
-                                to="/contact"
+                                to="/react-lending-page/contact"
                                 className="header-media__drop-right__a"
                               >
                                 Contact
