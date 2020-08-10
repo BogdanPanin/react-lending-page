@@ -11,11 +11,11 @@
       height: 178px;
     }
     &__menu {
-      &_div {
+      &_div.media {
         width: 166px;
         height: 28px;
         position: relative;
-        margin: 17px 0px 16px 0;
+        margin: 17px 0px 16px 0px;
         left: 50%;
         transform: translateX(-50%);
         grid-area: 1 / 1 / 2 / 2;
@@ -35,7 +35,7 @@
       }
     }
     &-text {
-      &__div {
+      &__div.media {
         width: 235px;
         pointer-events: none;
         position: relative;

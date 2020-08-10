@@ -4,7 +4,7 @@ import "./section.scss";
 import BanerTitle from "./BanerTitle";
 import BanerSubTitle from "./BanerSubTitle";
 import Button from "./Button";
-import Footer from "../footer/Footer";
+
 import "../mediaHome.scss";
 
 class SectionHome extends React.Component {
@@ -13,8 +13,6 @@ class SectionHome extends React.Component {
     this.state = {};
   }
   render() {
-    const style = { bottom: "-180px" };
-    const styleMedia = { bottom: "-350px" };
     return (
       <div>
         <section className="section">
@@ -25,7 +23,6 @@ class SectionHome extends React.Component {
             <Button title="View More" Href="/react-lending-page/portfolio" />
           </div>
         </section>
-        <Footer style={style} styleMedia={styleMedia} />
       </div>
     );
   }

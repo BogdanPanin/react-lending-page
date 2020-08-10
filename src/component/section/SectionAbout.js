@@ -5,7 +5,6 @@ import "../mediaContact.scss";
 import "../mediaAbout.scss";
 import ContactImg from "./ContactImg";
 import AboutContent from "./AboutContent";
-import Footer from "../footer/Footer";
 import aboutImeg from "../../img/about.png";
 
 class SectionAbout extends React.Component {
@@ -15,8 +14,6 @@ class SectionAbout extends React.Component {
   }
   render() {
     const bGColor = { backgroundColor: "#f0f3f6" };
-    const style = { bottom: "-320px" };
-    const styleMedia = { bottom: "-1250px" };
     return (
       <div>
         <section className="section">
@@ -45,7 +42,6 @@ class SectionAbout extends React.Component {
             </div>
           </div>
         </section>
-        <Footer style={style} styleMedia={styleMedia} />
       </div>
     );
   }

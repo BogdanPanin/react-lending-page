@@ -11,8 +11,6 @@ class SectionBook extends React.Component {
     this.state = {};
   }
   render() {
-    const style = { bottom: "-1600px" };
-    const styleMedia = { bottom: "-1850px" };
     const titleHeader = "BOOKS";
     return (
       <div>
@@ -45,7 +43,6 @@ class SectionBook extends React.Component {
             />
           </div>
         </section>
-        <Footer style={style} styleMedia={styleMedia} />
       </div>
     );
   }

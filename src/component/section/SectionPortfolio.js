@@ -1,6 +1,5 @@
 import React from "react";
 import "./section.scss";
-import Footer from "../footer/Footer";
 import SectionHeader from "./SectionHeader";
 import PortfolioContent from "./PortfolioContent";
 import "../mediaHeader.scss";
@@ -13,8 +12,6 @@ class SectionPortfolio extends React.Component {
     this.state = {};
   }
   render() {
-    const style = { bottom: "-270px" };
-    const styleMedia = { bottom: "-850px" };
     const titleHeader = "PORTFOLIO";
     return (
       <div>
@@ -24,7 +21,6 @@ class SectionPortfolio extends React.Component {
             <PortfolioContent />
           </div>
         </section>
-        <Footer style={style} styleMedia={styleMedia} />
       </div>
     );
   }

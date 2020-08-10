@@ -12,6 +12,7 @@ import DropRight from "./component/header/DropRight";
 import book1 from "./img/book1.png";
 import book2 from "./img/book2.png";
 import book3 from "./img/book3.png";
+import Footer from "./component/footer/Footer";
 
 function App() {
   const itemBook = [
@@ -108,6 +109,7 @@ function App() {
         <Route path="/react-lending-page/contact">
           <SectionContact />
         </Route>
+        <Footer />
       </div>
     </Router>
   );
