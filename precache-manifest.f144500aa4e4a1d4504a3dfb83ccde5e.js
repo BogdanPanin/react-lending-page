@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d2ccfcadc92622aefb82f3e2bd1fafd",
+    "revision": "521131a60a197e489fcd592d6553d68a",
     "url": "/react-lending-page/index.html"
   },
   {
-    "revision": "ceb82725a51c03891057",
-    "url": "/react-lending-page/static/css/main.2b991c76.chunk.css"
+    "revision": "fead7364a6e8a441dfb2",
+    "url": "/react-lending-page/static/css/main.95e1d858.chunk.css"
   },
   {
     "revision": "66a4c0284051a137ece9",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-lending-page/static/js/2.55feab25.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ceb82725a51c03891057",
+    "revision": "fead7364a6e8a441dfb2",
     "url": "/react-lending-page/static/js/main.cef3d9d9.chunk.js"
   },
   {
