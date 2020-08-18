@@ -5,7 +5,7 @@ import homePng from "../../img/home.png";
 
 function SectionImg() {
   return (
-    <div className="section-img__div">
+    <div className="section-img__div media">
       <img className="section-img__img" src={homePng} alt=""></img>
       <BackgroundImg />
     </div>

@@ -2,7 +2,7 @@
 
 @media screen and (max-width: $screen-lg - 1px) {
   .section {
-    top: 95px;
+    top: 0px;
     min-width: 100%;
     &__div {
       width: 100%;
@@ -11,7 +11,7 @@
     .portfolio {
       &__section {
         min-width: 100%;
-        top: 95px;
+        top: 0px;
       }
       &__display-flex {
         min-width: 100%;
