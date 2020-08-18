@@ -2,6 +2,7 @@
 
 @media screen and (max-width: $screen-lg - 1px) {
   .footer {
+    position: relative;
     bottom: -47px;
     height: 178px;
     &__div {
