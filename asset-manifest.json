@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-lending-page/static/css/main.478ab449.chunk.css",
+    "main.css": "/react-lending-page/static/css/main.466f8e15.chunk.css",
     "main.js": "/react-lending-page/static/js/main.cef3d9d9.chunk.js",
     "main.js.map": "/react-lending-page/static/js/main.cef3d9d9.chunk.js.map",
     "runtime-main.js": "/react-lending-page/static/js/runtime-main.26a41e0f.js",
@@ -8,9 +8,9 @@
     "static/js/2.55feab25.chunk.js": "/react-lending-page/static/js/2.55feab25.chunk.js",
     "static/js/2.55feab25.chunk.js.map": "/react-lending-page/static/js/2.55feab25.chunk.js.map",
     "index.html": "/react-lending-page/index.html",
-    "precache-manifest.540c3e2e34995c6c015adbe8d22a75c4.js": "/react-lending-page/precache-manifest.540c3e2e34995c6c015adbe8d22a75c4.js",
+    "precache-manifest.3e623f5ab9255b1d58284b645639e3ac.js": "/react-lending-page/precache-manifest.3e623f5ab9255b1d58284b645639e3ac.js",
     "service-worker.js": "/react-lending-page/service-worker.js",
-    "static/css/main.478ab449.chunk.css.map": "/react-lending-page/static/css/main.478ab449.chunk.css.map",
+    "static/css/main.466f8e15.chunk.css.map": "/react-lending-page/static/css/main.466f8e15.chunk.css.map",
     "static/js/2.55feab25.chunk.js.LICENSE.txt": "/react-lending-page/static/js/2.55feab25.chunk.js.LICENSE.txt",
     "static/media/PORTFOLIO3.png": "/react-lending-page/static/media/PORTFOLIO3.6357a9f8.png",
     "static/media/about.png": "/react-lending-page/static/media/about.cf0a1fca.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.26a41e0f.js",
     "static/js/2.55feab25.chunk.js",
-    "static/css/main.478ab449.chunk.css",
+    "static/css/main.466f8e15.chunk.css",
     "static/js/main.cef3d9d9.chunk.js"
   ]
 }
